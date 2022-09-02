@@ -1,0 +1,191 @@
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+nav a {
+    display: inline;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.principal {
+    
+    
+    background: #CCCCCC;
+    padding: 30px;
+    position: relative;
+
+    margin: 0 auto;
+    height: auto;
+}
+
+.principal h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+.principal-conteudo {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 95%;
+}
+
+.sobre {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    position: relative;
+    margin-right: 50px;
+
+
+
+}
+
+.sobre p {
+    text-align: center;
+    margin-top: 10px;
+    border: solid 2px #000000;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
+
+.sobre p em {
+    font-style: italic;
+}
+
+.sobre p em strong {
+    font-weight: bold;
+    color: #c78c19; 
+}
+
+#banner {
+    width: 50%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+
+#missao {
+    font-size: 20px;
+}
+
+.sobre p:hover {
+    background: #ffffff;
+    border: solid 2px #c78c19;
+    font-size: 18px;
+
+}
+
+.sobre p em:hover {
+    font-style: italic;
+    font-size: 25px;
+}
+
+.sobre p em strong:hover {
+    font-weight: bold;
+    color: #c78c19;
+    font-size: 25px; 
+}
+
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: #AAAAAA;
+    text-align: center;
+    padding: 30px;
+}
+
+.beneficios h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.beneficios ul {
+    
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    width: 20%;
+    margin-right: 15%;
+    border: solid 2px #000000;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.beneficios ul:hover {
+    background: #ffffff;
+    border: solid 2px #c78c19;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.beneficios ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.beneficios ul li:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.imagembeneficio {
+    width: 30%;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
