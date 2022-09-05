@@ -164,9 +164,8 @@ td, th {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+
 }
-
-
 .principal {
     width: 940px;
     margin: 0 auto;
@@ -195,6 +194,7 @@ td, th {
 .beneficios {
     padding: 3em 0;
     background: #888888;
+
 }
 
 .conteudo-beneficios {
@@ -222,6 +222,12 @@ td, th {
 
 .imagem-beneficios {
     width: 60%;
+    box-shadow: 10px  10px 10px 0 #000000 ;
+    transition: 400ms all;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
 }
 
 .mapa {
