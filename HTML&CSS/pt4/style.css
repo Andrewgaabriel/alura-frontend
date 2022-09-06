@@ -251,9 +251,14 @@ td, th {
     margin: 2em auto;
 }
 
+.conteudo-contato {
+    margin: 1.5em
+}
+
 @media screen and (max-width: 480px){
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
         width: auto;
+        margin: 1em;
 
     }  
     h1 {
@@ -262,7 +267,14 @@ td, th {
     nav {
         position: static;
     }
-    .lista-beneficios, .imagem-beneficios {
+    .lista-beneficios, .imagem-beneficios, .produtos {
         width: 100%;
+    }
+
+
+    .produtos li{
+        display: list-item;
+        width: 90%;
+        margin: 1em auto;
     }
 }
