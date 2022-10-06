@@ -45,3 +45,9 @@
 
     }
 }
+
+@media screen and (min-width: 1724px){
+    .topicos {
+        padding: 4em 60vh;
+    }
+}
