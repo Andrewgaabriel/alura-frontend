@@ -1,2 +1,2 @@
 # alura-frontend
-A repository to keep the projects created during the alura frontend formation
+Repository to keep the projects created during Alura's front-end development trainings
